@@ -9,7 +9,20 @@ El entrenamiento de la NMT se realizó usando colab <poner aquí el lugar donde 
 
 ### Experimentos
 
-Para realizar experimentos con el modelo entrenado pudes usar el notebook ´experimentos´ dentro de la carpeta notebooks
+Para realizar experimentos con el modelo entrenado, pudes usar el notebook ` NMT_experimentos `que se encuentra dentro de la carpeta notebooks. Para asegurar el correcto funcionamiento se utiliza un ambiente de `anaconda` y para su instalación se deben seguir los siguientes pasos.
+
+```
+conda env create -n NMT -f environment.yml
+conda activate NMT
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=NMT
+```
+Una vez que tienes cargado el ambiente solo debes lanzar `jupyter notebook` y correr los chunks, esto cargara las funciones necesarias y utilizará los pesos guardados en la carpeta ` training_checkpoints`
+
+Para salir del ambiente solo debes utilizar
+```
+conda deactivate
+```
 
 ### Colaboradores
 
