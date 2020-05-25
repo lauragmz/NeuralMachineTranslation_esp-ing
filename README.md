@@ -3,6 +3,14 @@
 # Neural Machine Translation
 <div align="justify">
 
+### Reproducibilidad
+
+El entrenamiento de la NMT se realizó usando colab <poner aquí el lugar donde se encuentra el notebook>
+
+### Experimentos
+
+Para realizar experimentos con el modelo entrenado pudes usar el notebook ´experimentos´ dentro de la carpeta notebooks
+
 ### Colaboradores
 
 + Laura Gómez Bustamante [lauragmz](https://github.com/lauragmz "github page")
