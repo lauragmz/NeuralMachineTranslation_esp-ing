@@ -17,7 +17,7 @@ conda activate NMT
 conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=NMT
 ```
-Una vez que tienes cargado el ambiente solo debes lanzar `jupyter notebook` y correr los chunks, esto cargara las funciones necesarias y utilizará los pesos guardados en la carpeta ` training_checkpoints`
+Una vez que tienes cargado el ambiente solo debes lanzar `jupyter notebook` y correr los chunks, esto cargara las funciones necesarias y utilizará los pesos que deberas descargar siguiendo las instrucciones de la carpeta ` training_checkpoints`
 
 Para salir del ambiente solo debes utilizar
 ```
