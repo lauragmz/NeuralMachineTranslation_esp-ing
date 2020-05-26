@@ -26,6 +26,9 @@ Para realizar experimentos con el modelo entrenado, pudes usar el notebook ` NMT
 
 Una vez que tienes cargado el ambiente solo debes lanzar `jupyter notebook` y correr los chunks, esto cargara las funciones necesarias y utilizará los pesos que deberas descargar siguiendo las instrucciones de la carpeta ` training_checkpoints`
 
+### Reporte
+
+El reporte con la investigación teórica y los resultados obtenidos se muestra en Métodos analíticos.pdf
 
 ### Colaboradores
 
